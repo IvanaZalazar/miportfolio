@@ -1,0 +1,659 @@
+body {
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8)-6px -2px 16px 0px;
+}
+header{
+  width: 100%;
+  height: 90px;
+  background-color:white;
+}
+
+/********************** Menú *******************/
+.menu {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin-left: -15px;
+  margin-top: -10px;
+  box-sizing: border-box;
+  border-style: outset;
+  background-color: blueviolet;
+  cursor: pointer;
+  position: fixed;
+  z-index: 2;
+}
+ul{
+  position: fixed;
+  z-index: 3;
+}
+li {
+  display:inline-table;
+  align-content: space-between;
+  text-transform: uppercase;
+  font-size: large;
+  text-align: center;
+  padding-right: 30px;
+  position: relative;
+  left: 80%;
+  z-index: 3;
+  
+
+}
+li a{
+  text-decoration: none;
+  color: aquamarine;
+}
+li a:hover{
+  color: white;
+}
+
+
+
+  
+
+.boton-contacto {
+  color: blueviolet;
+  border: none;
+  border-radius: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  text-transform: uppercase;
+  width: 100 px;
+  height: 100 px;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.boton-contacto:hover {
+  background-color: aqua;
+}
+
+/********************* Primera sección ***********************/
+.primera-seccion {
+  width: 100%;
+  height: 100%;
+  margin: -10px;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 1;
+
+}
+
+.contenedor{
+position: relative;
+width: 500px;
+height:30px;
+display: flex;
+flex-direction: column;
+top: 40%;
+}
+
+.contenedor-imagen{
+  width: 400px;
+  height: 350px;
+  z-index: 1;
+
+  
+}
+.primera-seccion img {
+position: relative;
+ width: 100% auto;
+ height: 70%;
+ top:15%;
+ 
+}
+
+h1 {
+  color: darkcyan;
+  font-size: 35px;
+  margin-block:unset;
+  
+}
+
+.primera-seccion h1:hover {
+  font-size: x-large;
+}
+
+h2 {
+  color: blueviolet;
+  font-size: 60px;
+  margin-block:unset;
+ 
+}
+
+.primera-seccion h2:hover {
+  font-family: "Moo Lah Lah", cursive;
+  font-size: 45px;
+  transition-delay: 1s;
+}
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  color: darkcyan;
+  
+}
+.primera-seccion p:hover {
+  font-size: large;
+  font-family: "Lilita One", cursive;
+}
+
+
+.boton-trabajo {
+ 
+  color: blueviolet;
+  border-style: groove;
+  border-color: darkcyan;
+  border-radius: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  text-transform: uppercase;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  cursor: pointer;
+  position: relative;
+  top: 30%;
+}
+.boton-trabajo:hover {
+  background-color: darkcyan;
+  opacity: 0.8;
+}
+
+/********************* Mis conocimientos ***********************/
+.conocimientos{
+  width: 100% auto;
+  height: 950px;
+  background-color: white;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+ justify-content: center;
+ margin-bottom: 10px;
+ box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+ rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+ rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+ rgba(0, 0, 0, 0.06) 0px 2px 1px 0px, rgba(0, 0, 0, 0.09) 0px 4px 2px 0px,
+ rgba(0, 0, 0, 0.09) 0px 8px 4px 0px, rgba(0, 0, 0, 0.09) 0px 16px 8px 0px,
+ rgba(0, 0, 0, 0.09) 0px 32px 16px 0px;
+
+
+}
+.conocimientos h1{
+  font-size: 45px;
+  text-align: center;
+}
+.conocimientos p{
+width: 40%;
+height: 10%;
+text-align: center;
+
+}
+.conocimientos div{
+  width: 25%;
+  height: 35%;
+  margin-left: 5px;
+  margin-right: 2px;
+  border-style: outset;
+  border-radius: 10px;
+  background-color: white;
+  
+}
+#contenedor-iconos{
+  display: flex;
+  flex-wrap: wrap;
+   justify-content:center;
+   width: 75%;
+   height: 650px;
+   background-color: rgb(238, 253, 248);
+   border-style: none;
+   border-radius: 15px;
+}
+ 
+
+.conocimientos i{
+  color: blueviolet;
+  background-color: white;
+  font-size: 450%;
+  position: relative;
+  top:5%;
+  z-index: 1;
+}
+
+#contenedor-iconos div:hover {
+  border-color: darkcyan;
+}
+.conocimientos p {
+  font-family: "Lilita One", cursive;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+/********************* Cita ***********************/
+.cita {
+  
+  background-color: rgb(152, 69, 230);
+  width: 100%;
+  height: 600px;
+  margin-left: -45px;
+  margin-right: 40px;
+  
+  text-align: center;
+  font-family: "Cookie", cursive;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px 0px, rgba(0, 0, 0, 0.09) 0px 4px 2px 0px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px 0px, rgba(0, 0, 0, 0.09) 0px 16px 8px 0px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px 0px;
+  position: relative;
+  right: 40px;
+  left: 40px;
+  z-index: 1;
+}
+.cita i {
+  width: 100%;
+  height: 100%;
+  color: aqua;
+  font-size: 90px;
+  padding-top: 70px;
+  position: relative;
+  top: 80%;
+  right: 0%;
+}
+
+.cita p{
+  color: aquamarine;
+  font-size: 30px;
+}
+/********************* Mis Proyectos***********************/
+.proyectos{
+  width: 100%;
+  height: 1100px;
+  background-color: white;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+  rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+  rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+  rgba(0, 0, 0, 0.06) 0px 2px 1px 0px, rgba(0, 0, 0, 0.09) 0px 4px 2px 0px,
+  rgba(0, 0, 0, 0.09) 0px 8px 4px 0px, rgba(0, 0, 0, 0.09) 0px 16px 8px 0px,
+  rgba(0, 0, 0, 0.09) 0px 32px 16px 0px;
+}
+.proyectos h1{
+  font-size: 45px;
+  text-align: center;
+  margin-top: 50px;
+}
+.proyectos p{
+  text-align: center;
+}
+#contenedor-proyectos{
+  width: 85%;
+height: 900px;
+padding-left:  50px;
+border-style: none;
+border-radius: 15px;
+background-color: rgb(238, 253, 248);
+position: relative;
+top:30px;
+left: 5%;
+}
+.proyectos div{
+  display:inline-block;
+  justify-content: space-between;
+  background-color: white;
+  width: 350px;
+  height: 300px;
+  border-style: inset;
+  border-radius: 10px;
+}
+.proyectos div:hover {
+  border-color: darkcyan;
+}
+.proyectos div img{
+  width: 300px;
+  height: 250px;
+
+}
+
+/********************* Contactame ***********************/
+.contacto{
+  width: 100%;
+  height: 580px;
+  background-color: white;
+  z-index: 1;
+  display: flex;
+
+  
+}
+.contactame{
+  width: 50%;
+  height: 600px;
+  background-color: aquamarine;
+  border-style: none;
+  border-radius: 15px;
+}
+ .contactame i{
+font-size: 200%;
+color: blueviolet;
+ } 
+
+
+.contactame a{
+  color: aliceblue;
+
+}
+.formulario{
+  color: darkcyan;
+  text-decoration:none;
+  width: 50%;
+  height: 600px;
+  background-color: rgb(238, 253, 248);
+  border-style: none;
+  border-radius: 15px;
+  padding-left: 10px;
+ 
+}
+
+input{
+  background-color: aquamarine;
+  border-radius: 25px;
+}
+input[type=text]::placeholder{
+color:blueviolet;
+}
+input[type=email]::placeholder{
+color:blueviolet;
+}
+textarea{
+  background-color: aquamarine;
+  color: blueviolet;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 15px;
+
+
+}
+ #boton-enviar{
+  background-color:blueviolet;
+  padding: 10px 15px 10px 15px;
+  font-size: 18px;
+  color: white;
+ }
+ #boton-enviar:hover{
+background-color: aqua;
+color: blueviolet;
+ }
+/********************* Pie de página ***********************/
+.pie {
+  width: 100%auto;
+  height: 200px;
+ font-size: medium;
+ background-color: rgb(244, 241, 247);
+  color: rgb(255, 240, 255);
+  z-index: 1;
+  text-align: center ;
+  display: flex;
+ justify-content: center;
+}
+footer i {
+width: 20px;
+height: 20px;
+color: red;
+}
+.menu-pie{
+  width: 100% auto;
+  height: 150px;
+  text-transform: uppercase;
+  text-align: center;
+  display:list-item;
+  background-color:rgb(244, 241, 247);
+    z-index: 1;
+}
+.menu-pie a{
+  text-decoration: none;
+  color: darkcyan;
+  font-size: 15px;
+}
+.menu-pie i{
+  font-size: 150%;
+  display: inline-block;
+  color: blueviolet;
+  position: relative;
+  bottom:10%;
+   } 
+/**************Media****************/
+
+@media screen and (max-width: 600px) {
+  .menu, li{
+   visibility: hidden;
+ }
+ .primera-seccion{
+  max-height: 650px;
+ }
+ .contenedor {
+text-align: center;
+   justify-content: center;
+   position: relative;
+left:30%;
+top:15%;
+ }
+ .contenedor h1 {
+ text-align: center; 
+font-size: 20px;
+
+ 
+   
+   }
+.contenedor h2{
+text-align: center;
+ font-size: 35px;
+
+}
+.contenedor p{
+  text-align: center;
+ font-size: small;
+
+}
+.contenedor button{
+ font-size: 12px;
+ align-content: center;
+
+}
+.boton-trabajo{
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+  .imagen-contenedor {
+    width: 500px;
+    height: 250px;
+position: relative;
+right:20%;
+top:30%;
+   }
+   
+.conocimientos h1{
+  font-size: 35px;
+  text-align: start;
+  
+}
+   .conocimientos{
+max-height: 700px ;
+   
+  }
+.conocimientos div{
+  max-height: 40%;
+}
+   .contenedor-iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width:5% ;
+    height: 50%;
+   }
+   .conocimientos i{
+    font-size: 200%;
+    height: 700px;
+  }
+  .conocimientos p{
+    font-size: 10px;
+    text-align:center;
+  }
+
+  .cita i {
+    color: aqua;
+    font-size: 40px;
+    
+}
+.cita p{
+  font-size: 15px;
+  position: relative;
+  top: 8%;
+}
+.proyectos h1{
+  font-size: 35px;
+}
+.proyectos p{
+  font-size: 13px;
+}
+
+.proyectos div img{
+  width: 90px;
+  height: 80px;
+}
+.proyectos div{
+  width: 60%;
+  height: 10%;
+  position: relative;
+  left: 13%;
+
+}
+#contenedor-proyectos{
+  width: 80%;
+max-height: 900px;
+}
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .menu, li{
+   visibility: hidden;
+ }
+ .primera-seccion{
+  max-height: 650px;
+ }
+ .contenedor {
+text-align: center;
+   justify-content: center;
+   position: relative;
+left:30%;
+top:15%;
+ }
+ .contenedor h1 {
+ text-align: center; 
+font-size: 20px;
+
+ 
+   
+   }
+.contenedor h2{
+text-align: center;
+ font-size: 35px;
+
+}
+.contenedor p{
+  text-align: center;
+ font-size: small;
+
+}
+.contenedor button{
+ font-size: 12px;
+ align-content: center;
+
+}
+.boton-trabajo{
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+  .imagen-contenedor {
+    width: 500px;
+    height: 250px;
+position: relative;
+right:20%;
+top:30%;
+   }
+   
+.conocimientos h1{
+  font-size: 35px;
+  text-align: start;
+  
+}
+   .conocimientos{
+max-height: 700px ;
+   
+  }
+.conocimientos div{
+  max-height: 40%;
+}
+   .contenedor-iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width:5% ;
+    height: 50%;
+   }
+   .conocimientos i{
+    font-size: 200%;
+    height: 700px;
+  }
+  .conocimientos p{
+    font-size: 10px;
+    text-align:center;
+  }
+
+  .cita i {
+    color: aqua;
+    font-size: 40px;
+    
+}
+.cita p{
+  font-size: 15px;
+  position: relative;
+  top: 8%;
+}
+.proyectos h1{
+  font-size: 35px;
+}
+.proyectos p{
+  font-size: 13px;
+}
+
+.proyectos div img{
+  width: 90px;
+  height: 80px;
+}
+.proyectos div{
+  width: 60%;
+  height: 10%;
+  position: relative;
+  left: 13%;
+  
+}
+#contenedor-proyectos{
+  width: 80%;
+max-height: 1100px;
+
+}
+
+}
+
