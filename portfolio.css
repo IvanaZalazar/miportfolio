@@ -462,20 +462,7 @@ text-align: center;
  align-content: center;
 
 }
-.boton-trabajo{
-  padding-left: 0px;
-  padding-right: 0px;
 
-}
-
-  .imagen-contenedor {
-    width: 500px;
-    height: 250px;
-position: relative;
-right:20%;
-top:30%;
-   }
-   
 .conocimientos h1{
   font-size: 35px;
   text-align: start;
@@ -488,6 +475,7 @@ max-height: 700px ;
 .conocimientos div{
   max-height: 40%;
 }
+
    .contenedor-iconos{
     display: flex;
     flex-direction: column;
@@ -541,8 +529,7 @@ max-height: 900px;
 }
 
 
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .menu, li{
    visibility: hidden;
  }
