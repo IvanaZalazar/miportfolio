@@ -525,7 +525,15 @@ max-height: 700px ;
   width: 80%;
 max-height: 900px;
 }
-
+.contactame p{
+  font-size: 15px;
+}
+.contactame a{
+  font-size: 12px;
+}
+.formulario p{
+  font-size: 15px;
+}
 }
 
 
